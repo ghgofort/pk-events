@@ -1,1 +1,0 @@
-/** Events.js - Server for handling reqest to viewor update events. */
