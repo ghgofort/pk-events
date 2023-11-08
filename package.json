@@ -1,16 +1,21 @@
 {
-  "name": "GetTogether",
-  "version": "0.0.0",
-  "private": true,
+  "name": "party-planner",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
     "dev": "partykit dev",
     "deploy": "partykit deploy"
   },
   "dependencies": {
-    "partysocket": "0.0.14"
+    "next": "14.0.1",
+    "next-auth": "^4.24.4",
+    "partykit": "0.0.33",
+    "partysocket": "0.0.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "partykit": "0.0.33",
-    "typescript": "^5.2.2"
+    "concurrently": "^8.2.2"
   }
 }
