@@ -7,6 +7,7 @@ import type * as Party from "partykit/server";
 
 export type User = {
   username: string;
+  displayName?: string;
   name?: string;
   email?: string;
   image?: string;

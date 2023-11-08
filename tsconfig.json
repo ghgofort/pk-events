@@ -104,6 +104,8 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "exclude": ["node_modules"] /* Specify path patterns to exclude from compilation. */,
+    "include": ["src/**/*.ts"] /* Specify path patterns to include in compilation. */
   }
 }
