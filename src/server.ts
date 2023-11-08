@@ -1,15 +1,15 @@
 import type * as Party from "partykit/server";
 
 export default class Server implements Party.Server {
-  constructor(readonly party: Party.Party) {}
+  constructor(readonly party: Party.Party) { }
 
   onConnect(conn: Party.Connection, ctx: Party.ConnectionContext) {
     // A websocket just connected!
     console.log(
       `Connected:
-  id: ${conn.id}
-  room: ${this.party.id}
-  url: ${new URL(ctx.request.url).pathname}`
+        id: ${conn.id}
+        room: ${this.party.id}
+        url: ${new URL(ctx.request.url).pathname}`
     );
 
     // let's send a message to the connection
