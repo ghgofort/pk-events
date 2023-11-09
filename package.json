@@ -12,11 +12,13 @@
     "start": "next start"
   },
   "dependencies": {
-"@types/node": "^20.9.0",
+    "@types/node": "^20.9.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "ai": "^2.2.21",
     "next": "14.0.1",
     "next-auth": "^4.24.4",
+    "openai-edge": "^1.2.2",
     "partykit": "0.0.33",
     "partysocket": "0.0.14",
     "react": "18.2.0",

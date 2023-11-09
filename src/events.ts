@@ -1,8 +1,8 @@
 /** Events.js - Server for handling reqest to viewor update events. */
 
 import type * as Party from "partykit/server";
-import { json } from "./utils/response";
-import type { User } from "./utils/auth";
+import { json } from "./server/utils/response";
+import type { User } from "./server/utils/auth";
 
 export type MyEventRequest = {
     id: string;
