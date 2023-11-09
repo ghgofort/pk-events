@@ -102,6 +102,9 @@
     "node_modules"
   ] /* Specify path patterns to exclude from compilation. */,
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx"
   ] /* Specify path patterns to include in compilation. */
 }

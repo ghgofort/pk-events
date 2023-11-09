@@ -4,6 +4,6 @@
   "compatibilityDate": "2023-11-06",
   "serve": {
     "path": "public",
-    "build": "src/client.ts"
+    "build": "app/client.ts"
   }
 }
