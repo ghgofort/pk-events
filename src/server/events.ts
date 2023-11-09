@@ -106,3 +106,4 @@ export default class EventsServer implements Party.Server {
             }
         }
     }
+};

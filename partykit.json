@@ -2,6 +2,10 @@
   "name": "GetTogether",
   "main": "src/server.ts",
   "compatibilityDate": "2023-11-06",
+  "parties": {
+    "events": "src/events.ts",
+    "chatRooms": "src/chatRooms.ts"
+  },
   "serve": {
     "path": "public",
     "build": "app/client.ts"
