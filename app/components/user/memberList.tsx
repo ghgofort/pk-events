@@ -4,17 +4,16 @@
  * their username. It also contains types for the member object.
  */
 
-import { type } from "os";
-import type { MemberEvent } from "./eventView";
+import type { MemberEvent } from "../event/eventView";
 
 /**
- * @type Member
+ * @type MemberStatus
  * @param username - string
  * @param displayName - string
  * @param image - string | null
  * @returns - Member object
  */
-export type Member = {
+export type MemberStatus = {
     username: string;
     displayName: string;
     image: string | null;
@@ -27,7 +26,7 @@ export type Member = {
  * their username.
  */
 function MemberList(props: {
-    members: Member[];
+    members: MemberStatus[];
     currentEvent: MemberEvent | null;
     onlineMembers: string[];
 }) {

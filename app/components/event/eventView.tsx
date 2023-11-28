@@ -5,7 +5,7 @@
  */
 
 import { useState } from "react";
-import MemberList, { type Member } from "./memberList";
+import MemberList, { type MemberStatus } from "../user/memberList";
 
 /**
  * @type MemberEvent
@@ -34,7 +34,7 @@ export type MemberEvent = {
  */
 function EventView(props: {
     event: MemberEvent;
-    members: Member[];
+    members: MemberStatus[];
     onlineMembers: string[];
 }) {
     const [ memberEvent, getMemberEvent ] = useState(props.event);
