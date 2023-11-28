@@ -5,15 +5,27 @@
  */
 
 import { type } from "os";
+import type { MemberEvent } from "./eventView";
 
-
-
+/**
+ * @type Member
+ * @param username - string
+ * @param displayName - string
+ * @param image - string | null
+ * @returns - Member object
+ */
 export type Member = {
     username: string;
     displayName: string;
     image: string | null;
 };
 
+/**
+ * MemberList
+ * @param props - members: Member[], currentEvent: MemberEvent | null, onlineMembers: string[]
+ * @returns - React component to show a list of user's avatars, current event status, their online status, & 
+ * their username.
+ */
 function MemberList(props: {
     members: Member[];
     currentEvent: MemberEvent | null;
